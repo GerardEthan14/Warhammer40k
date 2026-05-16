@@ -5,6 +5,7 @@
   import UnitDetail from './routes/UnitDetail.svelte';
   import Stratagems from './routes/Stratagems.svelte';
   import NavBar from './components/NavBar.svelte';
+  import KeywordPopup from './components/KeywordPopup.svelte';
   import { router, match } from './router.svelte.js';
 
   // Résoudre la route active
@@ -41,3 +42,5 @@
 {:else}
   <p>Route inconnue. <a href="#/">Retour à l'accueil</a></p>
 {/if}
+
+<KeywordPopup />

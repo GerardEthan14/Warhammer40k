@@ -1,4 +1,6 @@
 <script>
+  import KeywordChip from './KeywordChip.svelte';
+
   let { weapons, type = 'ranged', baseWeapons = null } = $props();
 
   let cols = $derived(
@@ -55,7 +57,7 @@
           {#if w.keywords && w.keywords.length > 0}
             <tr class="kw-row">
               <td colspan={cols.length}>
-                <span class="kw-label">[</span>{w.keywords.join(', ')}<span class="kw-label">]</span>
+                <span class="kw-label">[</span>{#each w.keywords as kw, i}{#if i > 0}, {/if}<KeywordChip text={kw} />{/each}<span class="kw-label">]</span>
               </td>
             </tr>
           {/if}
