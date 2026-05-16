@@ -12,9 +12,31 @@
       rel="stylesheet"
     />
     <title>WAAAGH! Mekboy Companion</title>
+    <style>
+      html, body { background: #0a0a0a; color: #e8e8ec; margin: 0; min-height: 100vh; font-family: monospace; }
+      #boot { padding: 24px; text-align: center; color: #39ff14; font-size: 14px; }
+      #boot-err { display: none; padding: 16px; margin: 16px; background: #2a0000; border: 1px solid #ff2d2d; color: #ff8080; font-size: 12px; white-space: pre-wrap; word-break: break-word; }
+    </style>
   </head>
   <body>
+    <div id="boot">⚙ Chargement WAAAGH!…</div>
+    <pre id="boot-err"></pre>
     <div id="app"></div>
+    <script>
+      window.addEventListener('error', (e) => {
+        var el = document.getElementById('boot-err');
+        if (el) { el.style.display = 'block'; el.textContent = 'ERREUR JS: ' + (e.message || e) + '\n' + (e.filename || '') + ':' + (e.lineno || '') + '\n' + ((e.error && e.error.stack) || ''); }
+      });
+      window.addEventListener('unhandledrejection', (e) => {
+        var el = document.getElementById('boot-err');
+        if (el) { el.style.display = 'block'; el.textContent = 'PROMESSE REJETÉE: ' + (e.reason && (e.reason.stack || e.reason.message || e.reason) || '?'); }
+      });
+      setTimeout(() => {
+        var app = document.getElementById('app');
+        var boot = document.getElementById('boot');
+        if (app && app.childNodes.length > 0 && boot) boot.style.display = 'none';
+      }, 1500);
+    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
