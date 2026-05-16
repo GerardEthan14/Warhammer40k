@@ -14,11 +14,13 @@ Ouvre `http://127.0.0.1:5173` (ou scanne ton réseau local depuis ton téléphon
 ## Build & déploiement
 
 ```bash
-npm run build          # bundle dans dist/
+npm run build          # bundle inline dans dist/index.html (un seul fichier)
 npm run preview        # sert dist/ pour vérifier
 ```
 
-Le `dist/` est statique : déployable sur GitHub Pages, Netlify, Vercel, etc.
+Le build produit **un seul `dist/index.html` self-contained** (JS + CSS inlinés via `vite-plugin-singlefile`). Tu peux donc :
+- l'ouvrir directement (`file://`) sur ton téléphone/ordi
+- ou le déployer sur GitHub Pages, Netlify, Vercel, etc.
 
 ## Structure
 
