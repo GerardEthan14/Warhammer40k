@@ -1,0 +1,83 @@
+[
+  {
+    "id": "command_reroll",
+    "name": "Command Re-roll",
+    "cost": 1,
+    "phase": ["any"],
+    "detachment": null,
+    "description": "Core stratagem : relance un dé (D6 ou 2D6 pour Avance/Charge).",
+    "once_per_turn": false
+  },
+  {
+    "id": "counter_offensive",
+    "name": "Counter-Offensive",
+    "cost": 2,
+    "phase": ["fight"],
+    "detachment": null,
+    "description": "Core stratagem : sélectionne une de tes unités à 3\" d'un ennemi pour combattre immédiatement.",
+    "once_per_turn": false
+  },
+  {
+    "id": "green_tide",
+    "name": "Green Tide",
+    "cost": 1,
+    "phase": ["command"],
+    "detachment": "war_horde",
+    "description": "Sélectionne une unité Orks (sauf Personnage/Véhicule) : restaure jusqu'à D3 figurines perdues.",
+    "once_per_turn": true
+  },
+  {
+    "id": "mob_up",
+    "name": "Mob Up",
+    "cost": 1,
+    "phase": ["command"],
+    "detachment": "war_horde",
+    "description": "Fusionne deux unités Boyz/Mob endommagées en une seule unité à pleine effectif.",
+    "once_per_turn": true
+  },
+  {
+    "id": "waaagh_bonus_attack",
+    "name": "Insane Bravery",
+    "cost": 2,
+    "phase": ["command"],
+    "detachment": "war_horde",
+    "description": "Une unité Orks réussit automatiquement son test de Battle-shock ce tour.",
+    "once_per_turn": false
+  },
+  {
+    "id": "orks_is_never_beaten",
+    "name": "Orks is Never Beaten",
+    "cost": 1,
+    "phase": ["fight"],
+    "detachment": "war_horde",
+    "description": "Une unité Orks détruite peut tirer ou combattre une dernière fois avant d'être retirée.",
+    "once_per_turn": true
+  },
+  {
+    "id": "crush_em",
+    "name": "Crush 'Em!",
+    "cost": 1,
+    "phase": ["fight"],
+    "detachment": "bully_boyz",
+    "description": "Une unité Nobz/Meganobz gagne +1 à la blessure mêlée jusqu'à la fin de la phase.",
+    "once_per_turn": true
+  },
+  {
+    "id": "monster_hunters",
+    "name": "Monster Hunters",
+    "cost": 1,
+    "phase": ["fight"],
+    "detachment": "bully_boyz",
+    "description": "Tes attaques mêlée contre un Monstre/Véhicule gagnent +1 dégât.",
+    "once_per_turn": true
+  },
+  {
+    "id": "tellyporta",
+    "name": "Tellyporta Strike",
+    "cost": 1,
+    "phase": ["movement"],
+    "detachment": "bully_boyz",
+    "description": "Place une unité en Réserves Stratégiques en Frappe en Profondeur à 9\" d'un ennemi.",
+    "once_per_turn": false
+  }
+]

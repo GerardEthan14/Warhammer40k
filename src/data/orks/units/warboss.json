@@ -1,0 +1,25 @@
+{
+  "id": "warboss",
+  "name": "Warboss",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 75,
+  "stats": { "M": 6, "T": 6, "Sv": 4, "W": 6, "Ld": 6, "OC": 1 },
+  "invuln_save": 4,
+  "weapons": {
+    "ranged": [
+      { "name": "Kombi-weapon", "range": 24, "A": 4, "BS": 4, "S": 5, "AP": 0, "D": 1, "keywords": ["Anti-Infantry 5+"] }
+    ],
+    "melee": [
+      { "name": "Power Klaw", "A": 5, "WS": 3, "S": 10, "AP": -2, "D": 2, "keywords": [] },
+      { "name": "Attack Squig", "A": 3, "WS": 4, "S": 4, "AP": 0, "D": 1, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Da Biggest Boss", "type": "passive", "description": "Chaque fois qu'une attaque mêlée de cette figurine cible un personnage, ajoute 1 à la blessure." },
+    { "name": "Waaagh!", "type": "faction", "description": "Une fois par bataille, en début de tour : déclencher la Waaagh!" }
+  ],
+  "keywords": ["Infantry", "Character", "Warboss"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"]
+}

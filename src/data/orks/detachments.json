@@ -1,0 +1,33 @@
+[
+  {
+    "id": "war_horde",
+    "name": "War Horde",
+    "faction": "orks",
+    "rule": {
+      "name": "Da Biggest and Da Best",
+      "description": "Quand la Waaagh! est active, tes unités Orks gagnent +1 to wound sur leurs attaques de mêlée."
+    },
+    "passive_effects": [
+      { "trigger": "waaagh_active", "target": "melee_weapons", "field": "to_wound_bonus", "op": "add", "value": 1 }
+    ],
+    "stratagems": ["green_tide", "mob_up", "waaagh_bonus_attack", "orks_is_never_beaten"],
+    "enhancements": [
+      { "name": "Headwoppa's Killchoppa", "cost": 25, "description": "Choppa de la figurine porteuse : Dévastateur, AP -2." },
+      { "name": "Kunnin' but Brutal", "cost": 15, "description": "La figurine porteuse a la règle Lone Operative." }
+    ]
+  },
+  {
+    "id": "bully_boyz",
+    "name": "Bully Boyz",
+    "faction": "orks",
+    "rule": {
+      "name": "Brutal but Kunnin'",
+      "description": "Tes unités Nobz/Meganobz gagnent +1 to hit en mêlée si elles ont chargé ce tour."
+    },
+    "passive_effects": [],
+    "stratagems": ["crush_em", "monster_hunters", "tellyporta"],
+    "enhancements": [
+      { "name": "Supa-Cybork Body", "cost": 15, "description": "Sauvegarde invulnérable 4+ pour la figurine porteuse." }
+    ]
+  }
+]

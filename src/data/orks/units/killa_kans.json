@@ -1,0 +1,23 @@
+{
+  "id": "killa_kans",
+  "name": "Killa Kans",
+  "faction": "orks",
+  "model_count": 3,
+  "points": 105,
+  "stats": { "M": 6, "T": 8, "Sv": 3, "W": 4, "Ld": 7, "OC": 2 },
+  "invuln_save": null,
+  "weapons": {
+    "ranged": [
+      { "name": "Kan Big Shoota", "range": 36, "A": 5, "BS": 5, "S": 5, "AP": 0, "D": 1, "keywords": [] }
+    ],
+    "melee": [
+      { "name": "Kan Klaw", "A": 4, "WS": 4, "S": 9, "AP": -2, "D": 2, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Klanky Boyz", "type": "passive", "description": "Chaque fois qu'une attaque ranged cible cette unité, soustraire 1 à la touche." }
+  ],
+  "keywords": ["Vehicle", "Walker", "Killa Kans"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"]
+}

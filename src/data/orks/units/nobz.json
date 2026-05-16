@@ -1,0 +1,23 @@
+{
+  "id": "nobz",
+  "name": "Nobz",
+  "faction": "orks",
+  "model_count": 5,
+  "points": 85,
+  "stats": { "M": 6, "T": 5, "Sv": 4, "W": 3, "Ld": 6, "OC": 1 },
+  "invuln_save": null,
+  "weapons": {
+    "ranged": [
+      { "name": "Kombi-slugga", "range": 12, "A": 1, "BS": 4, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistol"] }
+    ],
+    "melee": [
+      { "name": "Big Choppa", "A": 4, "WS": 3, "S": 7, "AP": -1, "D": 2, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Da Boss's Boyz", "type": "passive", "description": "Tant qu'un personnage Ork est attaché à cette unité, les figurines de cette unité ont la capacité Feel No Pain 6+." }
+  ],
+  "keywords": ["Infantry", "Mob", "Nobz"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh", "warboss_aura", "painboy_heal"]
+}

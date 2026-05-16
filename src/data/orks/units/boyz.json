@@ -1,0 +1,24 @@
+{
+  "id": "boyz",
+  "name": "Boyz",
+  "faction": "orks",
+  "model_count": 10,
+  "points": 80,
+  "stats": { "M": 6, "T": 4, "Sv": 6, "W": 1, "Ld": 7, "OC": 2 },
+  "invuln_save": null,
+  "weapons": {
+    "ranged": [
+      { "name": "Slugga", "range": 12, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistol"] }
+    ],
+    "melee": [
+      { "name": "Choppa", "A": 2, "WS": 3, "S": 4, "AP": -1, "D": 1, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Mob Rule", "type": "passive", "description": "Au lieu d'utiliser le Ld de cette unité pour un test de Battle-shock, vous pouvez utiliser le Ld de toute unité Orks à 6\"." },
+    { "name": "'Ere We Go!", "type": "faction", "description": "Chaque fois que cette unité Charge, ajoute 1 à la valeur Avance ou Charge." }
+  ],
+  "keywords": ["Infantry", "Battleline", "Mob", "Boyz"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh", "warboss_aura"]
+}
