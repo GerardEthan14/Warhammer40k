@@ -79,5 +79,59 @@
     "detachment": "bully_boyz",
     "description": "Place une unité en Réserves Stratégiques en Frappe en Profondeur à 9\" d'un ennemi.",
     "once_per_turn": false
+  },
+  {
+    "id": "chasseurs_instinct",
+    "name": "Chasseurs à l'Instinct",
+    "cost": 1,
+    "phase": ["fight"],
+    "detachment": "chasse_au_gros",
+    "description": "À la fin de la phase de Combat adverse : 1 unité Alpagueurs non engagée peut être renvoyée en Réserve Stratégique.",
+    "once_per_turn": false
+  },
+  {
+    "id": "elan_irresistible",
+    "name": "Élan Irrésistible",
+    "cost": 1,
+    "phase": ["charge"],
+    "detachment": "chasse_au_gros",
+    "description": "Après la charge d'1 unité Montée Alpagueurs : choisir 1 unité ennemie à portée d'engagement, jeter 1D6 par fig (+3 si c'est la Proie). Chaque 4+ = 1 BM (max 6 BM).",
+    "once_per_turn": false
+  },
+  {
+    "id": "encore_un_pluss_gros",
+    "name": "En v'là encore un pluss gros !",
+    "cost": 1,
+    "phase": ["charge"],
+    "detachment": "chasse_au_gros",
+    "description": "1 unité Alpagueurs peut Charger après avoir Avancé ou Battu en Retraite si l'une de ses cibles est sa Proie. Relance possible du jet de Charge si la Proie est ciblée.",
+    "once_per_turn": false
+  },
+  {
+    "id": "mettez_y_a_terre",
+    "name": "Mettez-y à Terre !",
+    "cost": 1,
+    "phase": ["fight"],
+    "detachment": "chasse_au_gros",
+    "description": "[Tactique de bataille] À la phase de Combat : 1 unité Alpagueurs (pas encore choisie pour combattre) gagne TOUCHES SOUTENUES 1 en mêlée (et touches critiques sur 5+ contre la Proie).",
+    "once_per_turn": false
+  },
+  {
+    "id": "ou_tu_crois",
+    "name": "Où Tu Crois Qu'Tu Vas ?",
+    "cost": 1,
+    "phase": ["movement"],
+    "detachment": "chasse_au_gros",
+    "description": "Après qu'une unité ennemie a fini un Mvt de Retraite : 1 unité Infanterie/Montée Alpagueurs qui était engagée avec elle (et ne l'est plus) peut faire un Mouvement Normal jusqu'à 6\".",
+    "once_per_turn": false
+  },
+  {
+    "id": "taktik_de_trak",
+    "name": "Taktik' de Trak' !",
+    "cost": 1,
+    "phase": ["shooting"],
+    "detachment": "chasse_au_gros",
+    "description": "[Tactique de bataille] À la phase de Tir adverse, après qu'1 unité Infanterie/Montée Alpagueurs ait été ciblée : elle gagne le bénéfice du Couvert pour cette phase (et Discrétion si Infanterie).",
+    "once_per_turn": false
   }
 ]

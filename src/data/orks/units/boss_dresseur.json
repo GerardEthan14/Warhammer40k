@@ -1,0 +1,30 @@
+{
+  "id": "boss_dresseur",
+  "name": "Boss Dresseur",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 120,
+  "stats": { "M": 6, "T": 5, "Sv": 4, "W": 6, "Ld": 6, "OC": 1 },
+  "invuln_save": 5,
+  "weapons": {
+    "ranged": [
+      { "name": "Fling'", "range": 18, "A": 2, "BS": 4, "S": 4, "AP": 0, "D": 1, "keywords": ["Tir Rapide 1"] }
+    ],
+    "melee": [
+      { "name": "Kikoup' de Dresseur", "A": 6, "WS": 2, "S": 6, "AP": -1, "D": 2, "keywords": ["Anti-Monstre 4+", "Anti-Véhicule 4+"] },
+      { "name": "Pince d'Alpagueur", "A": 4, "WS": 3, "S": 10, "AP": -2, "D": 2, "keywords": ["Anti-Monstre 4+", "Anti-Véhicule 4+"] }
+    ]
+  },
+  "abilities": [
+    { "name": "Boss Dresseur", "type": "passive", "description": "Tant qu'il mène une unité : +1 au jet de Touche en mêlée pour toute l'unité." },
+    { "name": "Rage Féroce", "type": "passive", "description": "Sur charge : ses armes mêlée gagnent BLESSURES DÉVASTATRICES jusqu'à la fin du tour." },
+    { "name": "Insensible à la Douleur 6+", "type": "passive", "description": "Sur 6+, le PV perdu n'est pas perdu." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille : déclarer la Waaagh (Charge après Avance, +1F/+1A mêlée, inv 5+)." },
+    { "name": "Meneur Alpagueurs", "type": "passive", "description": "Peut être attaché à une unité de Boyz Alpagueurs." },
+    { "name": "Optimisation : Défoncez les Plank' ! [25]", "type": "passive", "description": "Si tient un objectif en fin de phase de Cdt, l'objectif reste tenu même en s'en éloignant." },
+    { "name": "Optimisation : Trop Balèz' [15]", "type": "passive", "description": "+1 Dégâts aux armes mêlée du porteur." }
+  ],
+  "keywords": ["Alpagueur", "Boss de Guerre", "Boss Dresseur", "Infanterie", "Personnage"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"]
+}

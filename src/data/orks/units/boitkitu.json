@@ -1,0 +1,28 @@
+{
+  "id": "boitkitu",
+  "name": "Boit'kitu",
+  "faction": "orks",
+  "model_count": 3,
+  "points": 125,
+  "stats": { "M": 6, "T": 6, "Sv": 3, "W": 5, "Ld": 8, "OC": 2 },
+  "invuln_save": 6,
+  "weapons": {
+    "ranged": [
+      { "name": "Fling' de Boit'", "range": 36, "A": 3, "BS": 4, "S": 5, "AP": 0, "D": 1, "keywords": ["Blessures Dévastatrices", "Tir Rapide 2"] },
+      { "name": "Grotzooka", "range": 18, "A": "D3+3", "BS": 4, "S": 6, "AP": -1, "D": 1, "keywords": ["Déflagration", "Ignore Couvert"] },
+      { "name": "Karbonizeur", "range": 12, "A": "D6", "BS": 4, "S": 5, "AP": -1, "D": 1, "keywords": ["Ignore Couvert", "Torrent"] },
+      { "name": "Lance-rokettes", "range": 24, "A": "D3", "BS": 4, "S": 9, "AP": -2, "D": 3, "keywords": ["Déflagration"] }
+    ],
+    "melee": [
+      { "name": "Pince de Boit'", "A": 3, "WS": 4, "S": 8, "AP": -2, "D": 3, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Rafal' Inkonsékant'", "type": "active", "description": "Au tir, jette 1D6 : 1-2 = subit D3 BM ; 3-4 = +1 Force au tir cette phase ; 5-6 = +1 Attaque au tir cette phase." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille : déclarer la Waaagh (Charge après Avance, +1F/+1A mêlée, inv 5+)." },
+    { "name": "Destruction Néfaste 1", "type": "passive", "description": "Quand la fig est détruite, sur 6 : chaque unité à 6\" subit 1 BM." }
+  ],
+  "keywords": ["Boit'kitu", "Grots", "Marcheur", "Véhicule"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"]
+}

@@ -29,5 +29,27 @@
     "enhancements": [
       { "name": "Supa-Cybork Body", "cost": 15, "description": "Sauvegarde invulnérable 4+ pour la figurine porteuse." }
     ]
+  },
+  {
+    "id": "chasse_au_gros",
+    "name": "La Chasse au Gros",
+    "faction": "orks",
+    "rule": {
+      "name": "Da Gros'hunt",
+      "description": "Au début de la phase de Cdt, désigne 1 unité ennemie Véhicule/Monstre/Personnage comme Proie. Jusqu'à la prochaine phase de Cdt : tes unités Alpagueur relancent les jets de Charge contre la Proie et gagnent +1 PA contre elle."
+    },
+    "passive_effects": [],
+    "stratagems": [
+      "chasseurs_instinct",
+      "elan_irresistible",
+      "encore_un_pluss_gros",
+      "mettez_y_a_terre",
+      "ou_tu_crois",
+      "taktik_de_trak"
+    ],
+    "enhancements": [
+      { "name": "Défoncez les Plank' !", "cost": 25, "description": "Alpagueur uniquement. Si l'unité du porteur tient un objectif en fin de phase de Cdt, l'objectif reste tenu même si l'unité s'en éloigne (jusqu'à ce que l'ennemi le prenne)." },
+      { "name": "Trop Balèz'", "cost": 15, "description": "Alpagueur uniquement. +1 Dégâts aux armes de mêlée du porteur." }
+    ]
   }
 ]

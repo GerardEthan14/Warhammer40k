@@ -1,0 +1,28 @@
+{
+  "id": "boyz_alpagueurs",
+  "name": "Boyz Alpagueurs",
+  "faction": "orks",
+  "model_count": 10,
+  "points": 95,
+  "stats": { "M": 6, "T": 5, "Sv": 5, "W": 1, "Ld": 7, "OC": 2 },
+  "invuln_save": null,
+  "weapons": {
+    "ranged": [
+      { "name": "Kalibr'", "range": 12, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistolet"] },
+      { "name": "Fuzi kikogn'", "range": 18, "A": "D3", "BS": 5, "S": 6, "AP": 0, "D": 2, "keywords": ["Déflagration"] }
+    ],
+    "melee": [
+      { "name": "Kikoup'", "A": 3, "WS": 3, "S": 5, "AP": -1, "D": 1, "keywords": [] },
+      { "name": "Sékateur énergétik' (Nob)", "A": 4, "WS": 3, "S": 7, "AP": -1, "D": 2, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Chasseurs de Monstres", "type": "passive", "description": "Relance les jets pour toucher contre les Monstres et Véhicules." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille : déclarer la Waaagh (Charge après Avance, +1F/+1A mêlée, inv 5+)." },
+    { "name": "Insensible à la Douleur 6+", "type": "passive", "description": "Sur 6+, le PV perdu n'est pas perdu." },
+    { "name": "Composition (10)", "type": "passive", "description": "6 Kalibr', 3 Fuzi kikogn', 9 Kikoup' + 1 Nob Alpagueur (PV2, Kalibr' + Sékateur énergétik')." }
+  ],
+  "keywords": ["Alpagueur", "Bande", "Boyz Alpagueurs", "Infanterie", "Ligne"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "mozrog_skragbad",
+  "name": "Mozrog Skragbad",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 145,
+  "stats": { "M": 10, "T": 8, "Sv": 3, "W": 8, "Ld": 6, "OC": 3 },
+  "invuln_save": 4,
+  "weapons": {
+    "ranged": [
+      { "name": "Fuzi kikogn'", "range": 18, "A": "D3", "BS": 5, "S": 6, "AP": 0, "D": 2, "keywords": ["Déflagration"] }
+    ],
+    "melee": [
+      { "name": "Étripeur", "A": 6, "WS": 2, "S": 7, "AP": -1, "D": 3, "keywords": ["Anti-Monstre 4+", "Anti-Véhicule 4+"] },
+      { "name": "Mâchoires de Gros Krok'", "A": 3, "WS": 3, "S": 7, "AP": -2, "D": 4, "keywords": ["Blessures Dévastatrices", "Attaque Bonus"] }
+    ]
+  },
+  "abilities": [
+    { "name": "Pluss c'est Gros...", "type": "passive", "description": "Contre Monstre/Véhicule : +1 Dégâts. Contre Titanesque : +2 Dégâts." },
+    { "name": "Une Dernière Victime", "type": "passive", "description": "Si une fig de son unité est détruite en mêlée avant d'avoir combattu, sur 4+ elle frappe avant d'être retirée." },
+    { "name": "Insensible à la Douleur 5+", "type": "passive", "description": "Sur 5+, le PV perdu n'est pas perdu." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille : déclarer la Waaagh (Charge après Avance, +1F/+1A mêlée, inv 5+)." },
+    { "name": "Meneur (Boyz sur Squigliers)", "type": "passive", "description": "Peut être attaché à une unité de Boyz sur Squigliers." }
+  ],
+  "keywords": ["Alpagueur", "Boss de Guerre", "Héros Épique", "Monté", "Mozrog Skragbad", "Personnage"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"]
+}

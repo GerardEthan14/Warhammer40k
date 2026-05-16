@@ -1,0 +1,31 @@
+{
+  "id": "boyz_squigliers",
+  "name": "Boyz sur Squigliers",
+  "faction": "orks",
+  "model_count": 4,
+  "points": 150,
+  "stats": { "M": 10, "T": 7, "Sv": 4, "W": 3, "Ld": 7, "OC": 2 },
+  "invuln_save": null,
+  "weapons": {
+    "ranged": [
+      { "name": "Armes de grot de selle", "range": 9, "A": 1, "BS": 4, "S": 3, "AP": 0, "D": 1, "keywords": ["Assaut"] },
+      { "name": "Kipik' (Tir)", "range": 12, "A": 1, "BS": 5, "S": 5, "AP": -1, "D": 2, "keywords": ["Anti-Monstre 4+", "Anti-Véhicule 4+", "Assaut"] },
+      { "name": "Kalibr' (Nob)", "range": 12, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistolet"] }
+    ],
+    "melee": [
+      { "name": "Kipik' (Mêlée)", "A": 3, "WS": 3, "S": 5, "AP": -1, "D": 2, "keywords": ["Anti-Monstre 4+", "Anti-Véhicule 4+", "Lance"] },
+      { "name": "Mâchoires de Squiglier", "A": 3, "WS": 4, "S": 6, "AP": -1, "D": 2, "keywords": ["Attaques Bonus"] },
+      { "name": "Gros kikoup' (Nob)", "A": 4, "WS": 3, "S": 6, "AP": -1, "D": 2, "keywords": ["Anti-Monstre 4+", "Anti-Véhicule 4+"] }
+    ]
+  },
+  "abilities": [
+    { "name": "Squig-bombe", "type": "active", "description": "1 fois par bataille par squig-bombe : après Mvt Normal, choisir 1 unité ennemie visible à 12\". Sur 3+, elle subit D3 BM." },
+    { "name": "Chevauchée Sauvaj'", "type": "passive", "description": "Ignore les modificateurs de Mouvement / Avance / Charge." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille : déclarer la Waaagh (Charge après Avance, +1F/+1A mêlée, inv 5+)." },
+    { "name": "Insensible à la Douleur 5+", "type": "passive", "description": "Sur 5+, le PV perdu n'est pas perdu." },
+    { "name": "Composition (4)", "type": "passive", "description": "3 Boyz (Kipik' + Mâchoires + Armes grot + Squig-bombe) + 1 Nob sur Squig Krazeur (PV4, Kalibr' + Gros kikoup' + Mâchoires)." }
+  ],
+  "keywords": ["Alpagueur", "Boyz sur Squigliers", "Grenades", "Monté"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"]
+}
