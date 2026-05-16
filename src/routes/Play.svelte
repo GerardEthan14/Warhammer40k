@@ -7,6 +7,7 @@
   import { router } from '../router.svelte.js';
   import { units, getDetachment } from '../data/index.js';
   import { BUFFS } from '../lib/buffs.js';
+  import { playWaaagh, stopWaaagh } from '../lib/audio.js';
 
   let { listId } = $props();
   let list = $derived(armyLists.lists.find((l) => l.id === listId));
@@ -41,7 +42,12 @@
       <BuffToggle
         buff={BUFFS.waaagh}
         active={activeBuffs.isGlobalActive('waaagh')}
-        onToggle={(id) => activeBuffs.toggleGlobal(id)}
+        onToggle={(id) => {
+          const wasActive = activeBuffs.isGlobalActive(id);
+          activeBuffs.toggleGlobal(id);
+          if (!wasActive) playWaaagh();
+          else stopWaaagh();
+        }}
       />
     </div>
     {#if activeBuffs.isGlobalActive('waaagh')}
