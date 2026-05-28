@@ -1,0 +1,27 @@
+{
+  "id": "bannernob",
+  "name": "Bannernob",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 40,
+  "stats": { "M": 6, "T": 5, "Sv": 4, "W": 4, "Ld": 7, "OC": 6 },
+  "invuln_save": 5,
+  "weapons": {
+    "ranged": [
+      { "name": "Fling'", "range": 18, "A": 2, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Tir Rapide 1"] }
+    ],
+    "melee": [
+      { "name": "Kikoup'", "A": 5, "WS": 3, "S": 4, "AP": -1, "D": 1, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Support", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille pour former une unité Attachée (en plus d'un éventuel Leader)." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Étendard Waaagh!", "type": "passive", "description": "Cette unité a une Sauvegarde invulnérable 5+. Tant que la Waaagh! est active pour cette unité, l'unité gagne +1 Endurance." },
+    { "name": "Peut soutenir", "type": "passive", "description": "Peut être attaché à : Boyz, Breaka Boyz, Burna Boyz, Flash Gitz, Lootas, Nobz, Tankbustas." }
+  ],
+  "keywords": ["Infanterie", "Personnage", "Bannernob"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 40 = estimation, à vérifier dans le MFM."
+}

@@ -116,6 +116,13 @@
   />
 
   <AbilityList abilities={baseUnit.abilities} />
+
+  {#if baseUnit.notes}
+    <aside class="notes">
+      <span class="notes-label">Note</span>
+      <p>{baseUnit.notes}</p>
+    </aside>
+  {/if}
 {/if}
 
 <style>
@@ -161,5 +168,25 @@
     font-size: 9px;
     color: var(--text-mute);
     margin-right: 4px;
+  }
+  .notes {
+    margin-top: 14px;
+    padding: 10px 12px;
+    background: var(--bg-elev-1);
+    border-left: 2px solid var(--yellow);
+    border-radius: var(--radius);
+  }
+  .notes-label {
+    font-family: var(--font-arcade);
+    font-size: 9px;
+    color: var(--yellow);
+    text-shadow: var(--glow-yellow);
+    letter-spacing: 2px;
+  }
+  .notes p {
+    margin: 4px 0 0;
+    color: var(--text-dim);
+    font-size: 13px;
+    line-height: 1.45;
   }
 </style>

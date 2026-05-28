@@ -99,6 +99,24 @@ export const KEYWORDS = [
     description:
       'Cette arme ne peut être utilisée qu\'une seule fois par bataille.',
   },
+  {
+    prefix: 'Psychique',
+    name: 'Psychique',
+    description:
+      "Cette arme représente une attaque psychique. Elle peut être affectée par les défenses anti-psychique ennemies. Plusieurs aptitudes interagissent avec ce mot-clé (résistance psychique, contre-sortilèges, etc.).",
+  },
+  {
+    prefix: 'Dangereux',
+    name: 'Dangereux',
+    description:
+      "Après avoir résolu les attaques de cette arme, jette 1 D6 pour chaque figurine de l'unité tireuse qui a utilisé une arme Dangereux. Sur 1 : la figurine est détruite (les Monstres/Véhicules subissent 3 blessures mortelles à la place).",
+  },
+  {
+    prefix: 'Mêlée',
+    name: 'Mêlée',
+    description:
+      "Arme de mêlée — utilisée pendant la phase de Combat. Sa portée est toujours « engagement » (1 ps horizontal).",
+  },
 ];
 
 export function findKeyword(text) {

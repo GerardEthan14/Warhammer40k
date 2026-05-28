@@ -4,22 +4,25 @@
   "faction": "orks",
   "model_count": 1,
   "points": 75,
-  "stats": { "M": 6, "T": 6, "Sv": 4, "W": 6, "Ld": 6, "OC": 1 },
-  "invuln_save": 4,
+  "stats": { "M": 6, "T": 5, "Sv": 4, "W": 6, "Ld": 6, "OC": 1 },
+  "invuln_save": 5,
   "weapons": {
     "ranged": [
-      { "name": "Kombi-weapon", "range": 24, "A": 4, "BS": 4, "S": 5, "AP": 0, "D": 1, "keywords": ["Anti-Infantry 5+"] }
+      { "name": "Fling' kustom", "range": 18, "A": 4, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Tir Rapide 2"] }
     ],
     "melee": [
-      { "name": "Power Klaw", "A": 5, "WS": 3, "S": 10, "AP": -2, "D": 2, "keywords": [] },
-      { "name": "Attack Squig", "A": 3, "WS": 4, "S": 4, "AP": 0, "D": 1, "keywords": [] }
+      { "name": "Kikoup' kustom", "A": 6, "WS": 2, "S": 8, "AP": -2, "D": 2, "keywords": ["Cleave 1"] }
     ]
   },
   "abilities": [
-    { "name": "Da Biggest Boss", "type": "passive", "description": "Chaque fois qu'une attaque mêlée de cette figurine cible un personnage, ajoute 1 à la blessure." },
-    { "name": "Waaagh!", "type": "faction", "description": "Une fois par bataille, en début de tour : déclencher la Waaagh!" }
+    { "name": "Leader", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille pour former une unité Attachée." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+ jusqu'à ta prochaine phase de Cdt." },
+    { "name": "Le Droit du Plus Fort", "type": "passive", "description": "Les armes de mêlée de cette unité gagnent +1 au jet de Touche." },
+    { "name": "Le Plus Gros et le Plus Fort", "type": "passive", "description": "Tant que la Waaagh! est active pour cette unité, les armes de mêlée de cette figurine gagnent +4 Attaques." },
+    { "name": "Peut mener", "type": "passive", "description": "Peut être attaché à : Boyz, Breaka Boyz, Nobz." }
   ],
-  "keywords": ["Infantry", "Character", "Warboss"],
+  "keywords": ["Infanterie", "Personnage", "Explosifs", "Warboss"],
   "faction_keywords": ["Orks"],
-  "available_buffs": ["waaagh"]
+  "available_buffs": ["waaagh"],
+  "notes": "Points 75 = estimation, à vérifier dans le MFM courant."
 }

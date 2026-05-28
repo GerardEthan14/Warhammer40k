@@ -1,0 +1,29 @@
+{
+  "id": "weirdboy",
+  "name": "Weirdboy",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 80,
+  "stats": { "M": 6, "T": 5, "Sv": 5, "W": 4, "Ld": 7, "OC": 1 },
+  "invuln_save": null,
+  "weapons": {
+    "ranged": [
+      { "name": "Cogn'-tête", "range": 24, "A": 1, "BS": 4, "S": 6, "AP": -3, "D": 1, "keywords": ["Précision", "Psychique"] }
+    ],
+    "melee": [
+      { "name": "Bâton Waaagh!", "A": 3, "WS": 3, "S": 8, "AP": -1, "D": "D3", "keywords": ["Psychique"] }
+    ]
+  },
+  "abilities": [
+    { "name": "Mort Spectaculaire D3", "type": "core", "description": "Quand cette figurine est détruite, jette 1 D6 avant de la retirer. Sur 6, chaque unité à 6 ps subit D3 blessures mortelles." },
+    { "name": "Leader", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Énergie Waaagh!", "type": "passive", "description": "Pour chaque tranche de 5 figurines dans l'unité, +1 à la Force et aux Dégâts du Cogn'-tête. Si l'unité contient 10+ figurines, le Cogn'-tête gagne aussi [Dangereux]." },
+    { "name": "Da Saut (Psychique, 1 fois/tour, par armée)", "type": "active", "description": "En phase de Mouvement : jette 1 D6. Sur 1 : l'unité subit D6 blessures mortelles. Sur 2-6 : place l'unité en Réserves Stratégiques et elle gagne Frappe en Profondeur jusqu'à la fin de la phase. Elle peut ensuite faire un mouvement d'arrivée (même au 1er round)." },
+    { "name": "Peut mener", "type": "passive", "description": "Peut être attaché à : Boyz." }
+  ],
+  "keywords": ["Infanterie", "Personnage", "Psyker", "Weirdboy"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 80 = estimation, à vérifier dans le MFM."
+}

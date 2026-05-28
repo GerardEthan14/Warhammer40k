@@ -1,0 +1,28 @@
+{
+  "id": "painboy",
+  "name": "Painboy",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 45,
+  "stats": { "M": 6, "T": 5, "Sv": 5, "W": 3, "Ld": 7, "OC": 1 },
+  "invuln_save": null,
+  "weapons": {
+    "ranged": [],
+    "melee": [
+      { "name": "Outils du Dok", "A": 3, "WS": 4, "S": 9, "AP": -2, "D": 2, "keywords": [] },
+      { "name": "Seringue krado", "A": 1, "WS": 3, "S": 2, "AP": 0, "D": 1, "keywords": ["Anti-Infanterie 4+", "Attaques Bonus", "Précision"] }
+    ]
+  },
+  "abilities": [
+    { "name": "Support", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Outils du Dok", "type": "passive", "description": "Cette unité a Insensible à la Douleur 5+." },
+    { "name": "Bouge Pas, Dis Aargh", "type": "passive", "description": "Quand cette figurine inflige une Blessure Critique avec la Seringue krado contre une cible non-Véhicule, elle inflige aussi D6 blessures mortelles." },
+    { "name": "Aide-Soignant Grot", "type": "active", "description": "1 fois par bataille, en phase de Cdt, si l'unité est sous l'Effectif Initial : restaure jusqu'à D3 figurines de garde du corps détruites à cette unité." },
+    { "name": "Peut soutenir", "type": "passive", "description": "Peut être attaché à : Boyz, Breaka Boyz, Burna Boyz, Lootas, Nobz, Tankbustas." }
+  ],
+  "keywords": ["Infanterie", "Personnage", "Painboy"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh", "painboy_heal"],
+  "notes": "Points 45 = estimation, à vérifier dans le MFM."
+}
