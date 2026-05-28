@@ -10,8 +10,12 @@
           { path: `/builder/${listId}`, label: 'Build' },
           { path: `/play/${listId}`, label: 'Play' },
           { path: `/strats/${listId}`, label: 'Strats' },
+          { path: '/rules', label: 'Règles' },
         ]
-      : [{ path: '/', label: 'Home' }]
+      : [
+          { path: '/', label: 'Home' },
+          { path: '/rules', label: 'Règles' },
+        ]
   );
 </script>
 
