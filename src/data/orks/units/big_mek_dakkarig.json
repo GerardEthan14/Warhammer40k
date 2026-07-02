@@ -1,0 +1,26 @@
+{
+  "id": "big_mek_dakkarig",
+  "name": "Big Mek Dakkarig",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 100,
+  "stats": { "M": 8, "T": 8, "Sv": 3, "W": 11, "Ld": 7, "OC": 3 },
+  "invuln_save": 5,
+  "weapons": {
+    "ranged": [
+      { "name": "Blitzkannon", "range": 24, "A": 8, "BS": 5, "S": 7, "AP": -2, "D": 2, "keywords": ["Lourde", "Touches Soutenues 1"] },
+      { "name": "Rokkit launcha", "range": 24, "A": 6, "BS": 5, "S": 10, "AP": -2, "D": 3, "keywords": ["Lourde"] }
+    ],
+    "melee": [
+      { "name": "Stompy feet", "A": 4, "WS": 3, "S": 6, "AP": -1, "D": 1, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Dakkablitz", "type": "passive", "description": "À ta phase de Tir, quand cette unité fait des attaques, si son blitzkannon a ciblé une unité non-Monstre / non-Véhicule, cette arme gagne +6 Attaques." }
+  ],
+  "keywords": ["Marcheur", "Big Mek", "Dakkarig"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 100 (fiche). Socle 90 mm."
+}

@@ -3,7 +3,7 @@
   "name": "Bannernob",
   "faction": "orks",
   "model_count": 1,
-  "points": 40,
+  "points": 50,
   "stats": { "M": 6, "T": 5, "Sv": 4, "W": 4, "Ld": 7, "OC": 6 },
   "invuln_save": 5,
   "weapons": {
@@ -23,5 +23,5 @@
   "keywords": ["Infanterie", "Personnage", "Bannernob"],
   "faction_keywords": ["Orks"],
   "available_buffs": ["waaagh"],
-  "notes": "Points 40 = estimation, à vérifier dans le MFM."
+  "notes": "Points 50 (fiche). Base 40 mm."
 }

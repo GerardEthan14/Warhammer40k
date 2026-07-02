@@ -8,21 +8,25 @@
   "invuln_save": 5,
   "weapons": {
     "ranged": [
-      { "name": "Fling' kustom", "range": 18, "A": 4, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Tir Rapide 2"] }
+      { "name": "Kombi-arme", "range": 24, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Anti-Infanterie 4+", "Blessures Dévastatrices", "Tir Rapide 1"] },
+      { "name": "Sluggas jumelés", "range": 12, "A": 2, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistolet", "Jumelé"] }
     ],
     "melee": [
-      { "name": "Kikoup' kustom", "A": 6, "WS": 2, "S": 8, "AP": -2, "D": 2, "keywords": ["Cleave 1"] }
+      { "name": "Squig d'attaque", "A": 2, "WS": 4, "S": 4, "AP": 0, "D": 1, "keywords": ["Attaques Bonus"] },
+      { "name": "Gros'tranch' (big choppa)", "A": 5, "WS": 2, "S": 8, "AP": -1, "D": 2, "keywords": [] },
+      { "name": "Pince énergétik' (power klaw)", "A": 4, "WS": 3, "S": 10, "AP": -2, "D": 2, "keywords": [] }
     ]
   },
   "abilities": [
     { "name": "Leader", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille pour former une unité Attachée." },
     { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+ jusqu'à ta prochaine phase de Cdt." },
-    { "name": "Le Droit du Plus Fort", "type": "passive", "description": "Les armes de mêlée de cette unité gagnent +1 au jet de Touche." },
-    { "name": "Le Plus Gros et le Plus Fort", "type": "passive", "description": "Tant que la Waaagh! est active pour cette unité, les armes de mêlée de cette figurine gagnent +4 Attaques." },
+    { "name": "Le Droit du Plus Fort", "type": "passive", "description": "Tant que cette figurine mène une unité, les armes de mêlée de l'unité gagnent +1 au jet de Touche." },
+    { "name": "Le Plus Gros et le Plus Fort", "type": "passive", "description": "Tant que la Waaagh! est active pour ton armée, les armes de mêlée de cette figurine gagnent +4 Attaques." },
+    { "name": "Options d'équipement", "type": "passive", "description": "Le Gros'tranch' peut être remplacé par 1 Pince énergétik'. Cette figurine peut être équipée d'1 Squig d'attaque." },
     { "name": "Peut mener", "type": "passive", "description": "Peut être attaché à : Boyz, Breaka Boyz, Nobz." }
   ],
   "keywords": ["Infanterie", "Personnage", "Explosifs", "Warboss"],
   "faction_keywords": ["Orks"],
   "available_buffs": ["waaagh"],
-  "notes": "Points 75 = estimation, à vérifier dans le MFM courant."
+  "notes": "Points 75 (fiche). Base 40 mm."
 }

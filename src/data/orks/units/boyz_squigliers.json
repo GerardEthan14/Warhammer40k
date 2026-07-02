@@ -3,7 +3,7 @@
   "name": "Boyz sur Squigliers",
   "faction": "orks",
   "model_count": 4,
-  "points": 150,
+  "points": 140,
   "stats": { "M": 10, "T": 7, "Sv": 4, "W": 3, "Ld": 7, "OC": 2 },
   "invuln_save": null,
   "weapons": {
@@ -23,7 +23,7 @@
     { "name": "Chevauchée Sauvaj'", "type": "passive", "description": "Ignore les modificateurs de Mouvement / Avance / Charge." },
     { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille : déclarer la Waaagh (Charge après Avance, +1F/+1A mêlée, inv 5+)." },
     { "name": "Insensible à la Douleur 5+", "type": "passive", "description": "Sur 5+, le PV perdu n'est pas perdu." },
-    { "name": "Composition (4)", "type": "passive", "description": "3 Boyz (Kipik' + Mâchoires + Armes grot + Squig-bombe) + 1 Nob sur Squig Krazeur (PV4, Kalibr' + Gros kikoup' + Mâchoires)." }
+    { "name": "Composition (4)", "type": "passive", "description": "3 Boyz (Kipik' + Mâchoires + Armes grot + Squig-bombe) + 1 Nob sur Squig Krazeur (PV4, Kalibr' + Gros kikoup' + Mâchoires). Option : 6 Boyz + 2 Nobz = 280 pts." }
   ],
   "keywords": ["Alpagueur", "Boyz sur Squigliers", "Grenades", "Monté"],
   "faction_keywords": ["Orks"],

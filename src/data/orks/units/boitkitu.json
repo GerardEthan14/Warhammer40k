@@ -3,7 +3,7 @@
   "name": "Boit'kitu",
   "faction": "orks",
   "model_count": 3,
-  "points": 125,
+  "points": 120,
   "stats": { "M": 6, "T": 6, "Sv": 3, "W": 5, "Ld": 8, "OC": 2 },
   "invuln_save": 6,
   "weapons": {
@@ -20,9 +20,11 @@
   "abilities": [
     { "name": "Rafal' Inkonsékant'", "type": "active", "description": "Au tir, jette 1D6 : 1-2 = subit D3 BM ; 3-4 = +1 Force au tir cette phase ; 5-6 = +1 Attaque au tir cette phase." },
     { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille : déclarer la Waaagh (Charge après Avance, +1F/+1A mêlée, inv 5+)." },
-    { "name": "Destruction Néfaste 1", "type": "passive", "description": "Quand la fig est détruite, sur 6 : chaque unité à 6\" subit 1 BM." }
+    { "name": "Destruction Néfaste 1", "type": "passive", "description": "Quand la fig est détruite, sur 6 : chaque unité à 6\" subit 1 BM." },
+    { "name": "Options d'équipement", "type": "passive", "description": "Chaque Kan shoota (Fling' de Boit') peut être remplacé par : 1 Grotzooka, 1 Lance-rokettes ou 1 Karbonizeur." },
+    { "name": "Composition (3-6)", "type": "passive", "description": "3 Killa Kans = 120 pts ; 4-6 Killa Kans = 240 pts. Socle 60 mm." }
   ],
-  "keywords": ["Boit'kitu", "Grots", "Marcheur", "Véhicule"],
+  "keywords": ["Boit'kitu", "Killa Kans", "Grots", "Marcheur", "Véhicule"],
   "faction_keywords": ["Orks"],
   "available_buffs": ["waaagh"]
 }

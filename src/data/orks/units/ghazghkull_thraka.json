@@ -1,0 +1,32 @@
+{
+  "id": "ghazghkull_thraka",
+  "name": "Ghazghkull Thraka",
+  "faction": "orks",
+  "model_count": 2,
+  "points": 215,
+  "stats": { "M": 5, "T": 6, "Sv": 2, "W": 10, "Ld": 6, "OC": 4 },
+  "invuln_save": 4,
+  "weapons": {
+    "ranged": [
+      { "name": "Mork's Roar", "range": 36, "A": 12, "BS": 5, "S": 5, "AP": 0, "D": 1, "keywords": ["Tir Rapide 4"] }
+    ],
+    "melee": [
+      { "name": "Gork's Klaw - frappe", "A": 6, "WS": 2, "S": 14, "AP": -3, "D": 4, "keywords": [] },
+      { "name": "Gork's Klaw - balayage", "A": 12, "WS": 2, "S": 8, "AP": -2, "D": 2, "keywords": [] },
+      { "name": "Pointe de Makari", "A": 1, "WS": 4, "S": 3, "AP": 0, "D": 1, "keywords": ["Blessures Dévastatrices"] }
+    ]
+  },
+  "abilities": [
+    { "name": "Leader", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Prophète de la Grande Waaagh!", "type": "passive", "description": "Tant que cette figurine mène une unité, chaque fois qu'une figurine de cette unité fait une attaque de mêlée : +1 au jet de Touche et +1 au jet de Blessure ; et si la Waaagh! est active pour ton armée, une Touche Critique est obtenue sur un jet de Touche non modifié de 5+." },
+    { "name": "Étendard Waaagh! de Ghazghkull (Aura)", "type": "passive", "description": "Tant qu'une unité Orks amie est à 12 ps de Makari, si la Waaagh! est active pour ton armée, les armes de mêlée de cette unité gagnent [Touches Létales]." },
+    { "name": "Commandant Suprême", "type": "passive", "description": "Si cette unité est dans ton armée, le modèle Ghazghkull Thraka doit être ton Seigneur de Guerre." },
+    { "name": "Peut mener", "type": "passive", "description": "Peut être attaché à : Boyz, Breaka Boyz, Meganobz, Nobz." },
+    { "name": "Makari (garde du corps)", "type": "passive", "description": "Profil Makari : M5, T6, Sv7+, PV1, Cd8+, CO1, inv 2+ (les sauvegardes invulnérables de Makari ne peuvent pas être relancées). Équipé de la Pointe de Makari." }
+  ],
+  "keywords": ["Monstre", "Personnage", "Héros Épique", "Seigneur de Guerre", "Ghazghkull Thraka"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 215 = estimation (points non visibles sur la fiche, coupés) — à vérifier dans le MFM courant. Unité = 1 Ghazghkull Thraka (Héros Épique) + 1 Makari. Invulnérable : Ghazghkull 4+, Makari 2+."
+}

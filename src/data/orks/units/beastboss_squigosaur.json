@@ -1,0 +1,31 @@
+{
+  "id": "beastboss_squigosaur",
+  "name": "Beastboss on Squigosaur",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 95,
+  "stats": { "M": 10, "T": 8, "Sv": 3, "W": 8, "Ld": 6, "OC": 3 },
+  "invuln_save": 5,
+  "weapons": {
+    "ranged": [
+      { "name": "Slugga", "range": 12, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistolet"] },
+      { "name": "Thump gun", "range": 18, "A": "D3", "BS": 5, "S": 6, "AP": 0, "D": 2, "keywords": ["Déflagration"] }
+    ],
+    "melee": [
+      { "name": "Beastchoppa", "A": 6, "WS": 2, "S": 6, "AP": -1, "D": 2, "keywords": ["Anti-Monstre 4+", "Anti-Véhicule 4+"] },
+      { "name": "Mâchoires de Squigosaure", "A": 3, "WS": 4, "S": 7, "AP": -2, "D": 3, "keywords": ["Blessures Dévastatrices", "Attaques Bonus"] }
+    ]
+  },
+  "abilities": [
+    { "name": "Insensible à la Douleur 5+", "type": "core", "description": "Sur 5+, la blessure subie par cette figurine est ignorée." },
+    { "name": "Leader", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Charge Tonitruante", "type": "passive", "description": "Tant que cette figurine mène une unité, ajoute 1 aux jets de Charge faits pour cette unité." },
+    { "name": "Prédateur Obstiné", "type": "passive", "description": "Tu peux cibler cette unité avec le stratagème Intervention Héroïque, quelles que soient les autres utilisations de ce stratagème cette phase. Si tu le fais : cette utilisation est à -1 PC, et elle n'empêche pas d'utiliser ce stratagème sur d'autres unités cette phase." },
+    { "name": "Peut mener", "type": "passive", "description": "Peut être attaché à : Boyz sur Squigliers (Squighog Boyz)." }
+  ],
+  "keywords": ["Monté", "Personnage", "Alpagueur", "Boss de Guerre", "Beastboss on Squigosaur"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 95 (fiche). Version générique (distincte de Mozrog Skragbad, héros épique nommé). Socle 80 mm."
+}
