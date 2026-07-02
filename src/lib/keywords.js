@@ -28,6 +28,24 @@ export const KEYWORDS = [
       "Quand l'unité tire à la moitié de la portée de l'arme ou moins, la caractéristique d'Attaque de l'arme est augmentée de N.",
   },
   {
+    prefix: 'Jumelé',
+    name: 'Jumelé',
+    description:
+      'Vous pouvez relancer le jet de Blessure de cette arme.',
+  },
+  {
+    prefix: 'Lourde',
+    name: 'Lourde',
+    description:
+      "Si l'unité du porteur est restée immobile à votre tour précédent (n'a pas bougé), ajoutez 1 au jet de Touche de cette arme.",
+  },
+  {
+    prefix: 'Fusion',
+    name: 'Fusion N',
+    description:
+      "Quand cette arme cible une unité à la moitié de sa portée ou moins, sa caractéristique de Dégâts est augmentée de N.",
+  },
+  {
     prefix: 'Anti-',
     name: 'Anti-X N+',
     description:

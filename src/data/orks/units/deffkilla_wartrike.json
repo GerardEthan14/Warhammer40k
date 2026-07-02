@@ -1,0 +1,32 @@
+{
+  "id": "deffkilla_wartrike",
+  "name": "Deffkilla Wartrike",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 70,
+  "stats": { "M": 12, "T": 6, "Sv": 4, "W": 9, "Ld": 6, "OC": 3 },
+  "invuln_save": 5,
+  "weapons": {
+    "ranged": [
+      { "name": "Boomstikks", "range": 12, "A": 6, "BS": 5, "S": 5, "AP": 0, "D": 1, "keywords": ["Assaut"] },
+      { "name": "Killa jet - burna", "range": 12, "A": "D6", "BS": 5, "S": 5, "AP": -1, "D": 1, "keywords": ["Ignore Couvert", "Torrent"] },
+      { "name": "Killa jet - cutta", "range": 12, "A": 1, "BS": 5, "S": 9, "AP": -4, "D": "D6", "keywords": ["Fusion 2"] }
+    ],
+    "melee": [
+      { "name": "Snagga klaw", "A": 4, "WS": 3, "S": 10, "AP": -2, "D": 2, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Destruction Néfaste 1", "type": "core", "description": "Quand cette figurine est détruite, jette 1 D6 avant de la retirer. Sur 6, chaque unité à 6 ps subit 1 blessure mortelle." },
+    { "name": "Leader", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Speedboss", "type": "passive", "description": "Tant que cette figurine mène une unité, chaque fois qu'une figurine de cette unité fait une attaque de mêlée, ajoute 1 au jet de Touche." },
+    { "name": "Grot Mélanjeur d'Karburant", "type": "passive", "description": "Chaque fois que l'unité menée par cette figurine Avance, ne fais pas de jet d'Avance : à la place, ajoute 6 ps à la caractéristique de Mouvement des figurines de cette unité jusqu'à la fin de la phase." },
+    { "name": "Peut mener", "type": "passive", "description": "Peut être attaché à : Nobz sur Warbikes, Skorchas, Warbikers, Warbuggies." },
+    { "name": "Killa jet (profil au choix)", "type": "passive", "description": "Le Killa jet peut tirer avec le profil burna OU le profil cutta (choisir 1 à chaque fois qu'il tire)." }
+  ],
+  "keywords": ["Monté", "Personnage", "Warboss", "Speed Freeks", "Deffkilla Wartrike"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 70 (fiche). Socle 150 x 95 mm ovale."
+}

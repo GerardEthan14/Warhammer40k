@@ -4,21 +4,31 @@
   "faction": "orks",
   "model_count": 10,
   "points": 80,
-  "stats": { "M": 6, "T": 4, "Sv": 6, "W": 1, "Ld": 7, "OC": 2 },
+  "stats": { "M": 6, "T": 5, "Sv": 5, "W": 1, "Ld": 7, "OC": 2 },
   "invuln_save": null,
   "weapons": {
     "ranged": [
-      { "name": "Slugga", "range": 12, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistol"] }
+      { "name": "Slugga", "range": 12, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistolet"] },
+      { "name": "Shoota", "range": 18, "A": 2, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Tir Rapide 1"] },
+      { "name": "Big shoota", "range": 36, "A": 3, "BS": 5, "S": 5, "AP": 0, "D": 1, "keywords": ["Tir Rapide 2"] },
+      { "name": "Rokkit launcha", "range": 24, "A": "D3", "BS": 5, "S": 9, "AP": -2, "D": 3, "keywords": ["Déflagration"] },
+      { "name": "Kombi-arme (Boss Nob)", "range": 24, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Anti-Infanterie 4+", "Blessures Dévastatrices", "Tir Rapide 1"] }
     ],
     "melee": [
-      { "name": "Choppa", "A": 2, "WS": 3, "S": 4, "AP": -1, "D": 1, "keywords": [] }
+      { "name": "Choppa", "A": 3, "WS": 3, "S": 4, "AP": -1, "D": 1, "keywords": [] },
+      { "name": "Arme de corps à corps", "A": 2, "WS": 3, "S": 4, "AP": 0, "D": 1, "keywords": [] },
+      { "name": "Big choppa (Boss Nob)", "A": 3, "WS": 3, "S": 7, "AP": -1, "D": 2, "keywords": [] },
+      { "name": "Power klaw (Boss Nob)", "A": 3, "WS": 4, "S": 9, "AP": -2, "D": 2, "keywords": [] }
     ]
   },
   "abilities": [
-    { "name": "Mob Rule", "type": "passive", "description": "Au lieu d'utiliser le Ld de cette unité pour un test de Battle-shock, vous pouvez utiliser le Ld de toute unité Orks à 6\"." },
-    { "name": "'Ere We Go!", "type": "faction", "description": "Chaque fois que cette unité Charge, ajoute 1 à la valeur Avance ou Charge." }
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Récup' du Meilleur Bitz", "type": "passive", "description": "À la fin de ta phase de Cdt, si cette unité est à portée d'un objectif que tu contrôles, il reste sous ton contrôle jusqu'à ce que le Contrôle d'Objectif adverse dépasse le tien à la fin d'une phase." },
+    { "name": "Garde du Corps", "type": "passive", "description": "Si cette unité a un Effectif Initial de 20, tu peux lui attacher jusqu'à deux unités de Leader au lieu d'une (mais une seule peut être un Warboss). Si cette unité est détruite, les Leaders attachés redeviennent des unités séparées." },
+    { "name": "Options d'équipement", "type": "passive", "description": "Boss Nob : big choppa → power klaw, ou big choppa + slugga → kombi-arme + arme C-à-C. N'importe quel Boy : slugga + choppa → shoota + arme C-à-C. 1 Boy sur 10 : slugga + choppa → big shoota ou rokkit launcha + arme C-à-C." }
   ],
-  "keywords": ["Infantry", "Battleline", "Mob", "Boyz"],
+  "keywords": ["Infanterie", "Bande", "Ligne", "Boyz"],
   "faction_keywords": ["Orks"],
-  "available_buffs": ["waaagh", "warboss_aura"]
+  "available_buffs": ["waaagh", "warboss_aura"],
+  "notes": "10 Boyz = 80 pts ; 20 Boyz = 160 pts. Boss Nob : PV2. Boy/Boss Nob Sv5+. Base 32 mm."
 }

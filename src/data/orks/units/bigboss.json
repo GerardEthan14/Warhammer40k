@@ -1,0 +1,28 @@
+{
+  "id": "bigboss",
+  "name": "Bigboss",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 55,
+  "stats": { "M": 6, "T": 5, "Sv": 4, "W": 5, "Ld": 7, "OC": 1 },
+  "invuln_save": null,
+  "weapons": {
+    "ranged": [
+      { "name": "Slugga", "range": 12, "A": 1, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Pistolet"] }
+    ],
+    "melee": [
+      { "name": "Two-handed big choppa", "A": 5, "WS": 3, "S": 7, "AP": -1, "D": 2, "keywords": ["Abattage 1"] }
+    ]
+  },
+  "abilities": [
+    { "name": "Leader", "type": "core", "description": "Peut être attaché à une unité éligible avant la bataille." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Casse des Tronches", "type": "passive", "description": "Les armes de mêlée de cette unité gagnent [Touches Soutenues 1]." },
+    { "name": "Quelque Chose à Prouver", "type": "passive", "description": "Cette unité gagne +1 aux jets de Charge." },
+    { "name": "Peut mener", "type": "passive", "description": "Peut être attaché à : Boyz, Breaka Boyz, Nobz." }
+  ],
+  "keywords": ["Infanterie", "Personnage", "Bigboss"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 55 (fiche). Socle 40 mm."
+}

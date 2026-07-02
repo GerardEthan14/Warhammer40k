@@ -3,7 +3,7 @@
   "name": "Gretchins",
   "faction": "orks",
   "model_count": 11,
-  "points": 40,
+  "points": 45,
   "stats": { "M": 6, "T": 2, "Sv": 7, "W": 1, "Ld": 8, "OC": 2 },
   "invuln_save": null,
   "weapons": {
@@ -20,7 +20,7 @@
     { "name": "Eskamoteurs de Récup'", "type": "active", "description": "Début phase de Mouvement : 1D6 par objectif tenu par une unité non-ébranlée ayant cette aptitude. Sur un 4+ minimum, gagne 1 PC." },
     { "name": "Fouettard", "type": "passive", "description": "Tant qu'il reste des Gretchins, le Fouettard a Endurance 2 vis-à-vis des attaques ciblant l'unité." },
     { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille : déclarer la Waaagh (Charge après Avance, +1F/+1A mêlée, inv 5+)." },
-    { "name": "Composition (11)", "type": "passive", "description": "10 Gretchins (Pétoire grot + Arme C-à-C) + 1 Fouettard (T5, Sv5+, PV2, Kalibr' + Klak'grot)." }
+    { "name": "Composition (11)", "type": "passive", "description": "10 Gretchins (Pétoire grot + Arme C-à-C) + 1 Fouettard (T5, Sv5+, PV2, Kalibr' + Klak'grot). Option : 20 Gretchins + 2 Fouettards = 80 pts." }
   ],
   "keywords": ["Gretchins", "Grots", "Infanterie"],
   "faction_keywords": ["Orks"],

@@ -3,7 +3,7 @@
   "name": "Boss Dresseur",
   "faction": "orks",
   "model_count": 1,
-  "points": 120,
+  "points": 80,
   "stats": { "M": 6, "T": 5, "Sv": 4, "W": 6, "Ld": 6, "OC": 1 },
   "invuln_save": 5,
   "weapons": {

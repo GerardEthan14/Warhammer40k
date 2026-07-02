@@ -3,7 +3,7 @@
   "name": "Painboy",
   "faction": "orks",
   "model_count": 1,
-  "points": 45,
+  "points": 80,
   "stats": { "M": 6, "T": 5, "Sv": 5, "W": 3, "Ld": 7, "OC": 1 },
   "invuln_save": null,
   "weapons": {
@@ -24,5 +24,5 @@
   "keywords": ["Infanterie", "Personnage", "Painboy"],
   "faction_keywords": ["Orks"],
   "available_buffs": ["waaagh", "painboy_heal"],
-  "notes": "Points 45 = estimation, à vérifier dans le MFM."
+  "notes": "Points 80 (fiche). Base 32 mm."
 }

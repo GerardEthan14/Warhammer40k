@@ -1,0 +1,26 @@
+{
+  "id": "wartrakk",
+  "name": "Wartrakk",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 60,
+  "stats": { "M": 12, "T": 6, "Sv": 4, "W": 7, "Ld": 7, "OC": 3 },
+  "invuln_save": 6,
+  "weapons": {
+    "ranged": [
+      { "name": "Kustom shoota", "range": 18, "A": 2, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Tir Rapide 2"] },
+      { "name": "Rokkit launcha", "range": 24, "A": "D3+3", "BS": 5, "S": 10, "AP": -2, "D": 3, "keywords": [] }
+    ],
+    "melee": [
+      { "name": "Choppas", "A": 5, "WS": 3, "S": 4, "AP": -1, "D": 1, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Détonations Indiscriminées", "type": "passive", "description": "À ta phase de Tir, quand cette unité a résolu ses attaques, choisis une unité ennemie touchée par une ou plusieurs de ces attaques. Cette unité est étouffée jusqu'au début de ta prochaine phase de Cdt (une unité étouffée subit -1 aux jets de Touche)." }
+  ],
+  "keywords": ["Monté", "Speed Freeks", "Wartrakk"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 60 (fiche). Équipement : 1 kustom shoota ; 1 rokkit launcha ; 1 choppas. Socle 105 mm ovale."
+}

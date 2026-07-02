@@ -1,0 +1,28 @@
+{
+  "id": "rukkatrukk_squigbuggy",
+  "name": "Rukkatrukk Squigbuggy",
+  "faction": "orks",
+  "model_count": 1,
+  "points": 85,
+  "stats": { "M": 12, "T": 7, "Sv": 4, "W": 9, "Ld": 7, "OC": 3 },
+  "invuln_save": 6,
+  "weapons": {
+    "ranged": [
+      { "name": "Sawn-off shotgun", "range": 12, "A": 2, "BS": 5, "S": 4, "AP": 0, "D": 1, "keywords": ["Assaut"] },
+      { "name": "Squig-launchas", "range": 36, "A": "D6+6", "BS": 5, "S": 5, "AP": -1, "D": 2, "keywords": ["Déflagration", "Ignore Couvert", "Tir Indirect"] }
+    ],
+    "melee": [
+      { "name": "Saw blades", "A": 4, "WS": 4, "S": 7, "AP": -1, "D": 2, "keywords": [] }
+    ]
+  },
+  "abilities": [
+    { "name": "Destruction Néfaste 1", "type": "core", "description": "Quand cette figurine est détruite, jette 1 D6 avant de la retirer. Sur 6, chaque unité à 6 ps subit 1 blessure mortelle." },
+    { "name": "Waaagh!", "type": "faction", "description": "1 fois par bataille, en début de phase de Cdt : ton armée Orks gagne Charge après Avance, +1F/+1A mêlée, inv 5+." },
+    { "name": "Squigs Bourdonnants", "type": "passive", "description": "À ta phase de Tir, après le tir de cette figurine, choisis une unité ennemie touchée par une ou plusieurs attaques de squig-launchas et jette 1 D6 : sur 4+, jusqu'à la fin du prochain tour adverse, cette unité est gênée (-2 ps au Mouvement et -2 aux jets d'Avance et de Charge)." },
+    { "name": "Squig-Mine", "type": "active", "description": "1 fois par bataille, au début de n'importe quelle phase, choisis une unité ennemie à 3 ps de cette figurine et jette 1 D6 : sur 4+, cette unité subit D6 blessures mortelles." }
+  ],
+  "keywords": ["Véhicule", "Speed Freeks", "Rukkatrukk Squigbuggy"],
+  "faction_keywords": ["Orks"],
+  "available_buffs": ["waaagh"],
+  "notes": "Points 85 (fiche). Socle 150 x 95 mm ovale."
+}
